@@ -1,2 +1,7 @@
-# RJournal
- News about the Internet: trends, scandals, technologies and media.
+# **RJournal**
+
+## Run Server
+`...\server> npm run start:dev`
+
+## Run Client
+`...\client> npm run dev`

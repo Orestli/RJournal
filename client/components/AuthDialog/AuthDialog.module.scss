@@ -1,0 +1,57 @@
+.content {
+  width: 70%;
+  margin: 30px auto;
+
+  button {
+    position: relative;
+
+    svg {
+      width: 24px;
+      height: 24px;
+
+      position: absolute;
+      left: 10px;
+    }
+  }
+}
+
+.title {
+  margin-bottom: 25px;
+
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.miniButtons {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    height: 40px;
+
+    &:nth-of-type(2) {
+      margin: 0 15px;
+    }
+
+    svg {
+      position: static;
+    }
+  }
+}
+
+.backTitle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    color: #4683d9;
+  }
+
+  svg {
+    margin-right: 10px;
+    position: relative;
+    top: -1px;
+  }
+}
